@@ -6681,7 +6681,7 @@
   "faucets": [],
   "nativeCurrency": {
     "name": "Oort",
-    "symbol": "CCN",
+    "symbol": "OORT",
     "decimals": 18
   },
   "infoURL": "https://oortech.com",
@@ -9881,6 +9881,20 @@
   "shortName": "ncfg",
   "chainId": 2032,
   "networkId": 2032
+}, {
+  "name": "Phala Network",
+  "chain": "PHA",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Phala",
+    "symbol": "PHA",
+    "decimals": 18
+  },
+  "infoURL": "https://phala.network",
+  "shortName": "pha",
+  "chainId": 2035,
+  "networkId": 2035
 }, {
   "name": "Kiwi Subnet",
   "chain": "KIWI",
@@ -14064,17 +14078,17 @@
   }],
   "redFlags": ["reusedChainId"]
 }, {
-  "name": "BitEth",
-  "chain": "BTE",
+  "name": "Bitcoin Chain",
+  "chain": "BTC",
   "rpc": ["https://rpc.biteth.org"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "BitEth",
-    "symbol": "BTE",
+    "name": "Bitcoin",
+    "symbol": "BTC",
     "decimals": 18
   },
   "infoURL": "https://biteth.org",
-  "shortName": "BitEth",
+  "shortName": "Bitcoin",
   "chainId": 8086,
   "networkId": 8086,
   "explorers": []
@@ -14925,7 +14939,7 @@
   "faucets": [],
   "nativeCurrency": {
     "name": "Oort",
-    "symbol": "CCN",
+    "symbol": "OORT",
     "decimals": 18
   },
   "infoURL": "https://oortech.com",
@@ -15356,6 +15370,28 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Arthera Mainnet",
+  "chain": "AA",
+  "icon": "arthera",
+  "rpc": ["https://rpc.arthera.net"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Arthera",
+    "symbol": "AA",
+    "decimals": 18
+  },
+  "infoURL": "https://docs.arthera.net/build/developing-sc/using-hardhat",
+  "shortName": "aa",
+  "chainId": 10242,
+  "networkId": 10242,
+  "slip44": 10242,
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://explorer.arthera.net",
+    "icon": "blockscout",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Arthera Testnet",
   "chain": "AA",
   "icon": "arthera",
@@ -15367,7 +15403,7 @@
     "decimals": 18
   },
   "infoURL": "https://docs.arthera.net",
-  "shortName": "aa",
+  "shortName": "aat",
   "chainId": 10243,
   "networkId": 10243,
   "slip44": 1,

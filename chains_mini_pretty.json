@@ -4204,7 +4204,7 @@
   "networkId": 970,
   "nativeCurrency": {
     "name": "Oort",
-    "symbol": "CCN",
+    "symbol": "OORT",
     "decimals": 18
   },
   "rpc": ["https://mainnet-rpc.oortech.com"],
@@ -6251,6 +6251,19 @@
   "rpc": ["wss://fullnode.catalyst.cntrfg.com"],
   "faucets": [],
   "infoURL": "https://centrifuge.io"
+}, {
+  "name": "Phala Network",
+  "chainId": 2035,
+  "shortName": "pha",
+  "networkId": 2035,
+  "nativeCurrency": {
+    "name": "Phala",
+    "symbol": "PHA",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://phala.network"
 }, {
   "name": "Kiwi Subnet",
   "chainId": 2037,
@@ -8813,13 +8826,13 @@
   "faucets": ["https://faucet-sphinx.shardeum.org/"],
   "infoURL": "https://docs.shardeum.org/"
 }, {
-  "name": "BitEth",
+  "name": "Bitcoin Chain",
   "chainId": 8086,
-  "shortName": "BitEth",
+  "shortName": "Bitcoin",
   "networkId": 8086,
   "nativeCurrency": {
-    "name": "BitEth",
-    "symbol": "BTE",
+    "name": "Bitcoin",
+    "symbol": "BTC",
     "decimals": 18
   },
   "rpc": ["https://rpc.biteth.org"],
@@ -9404,7 +9417,7 @@
   "networkId": 9700,
   "nativeCurrency": {
     "name": "Oort",
-    "symbol": "CCN",
+    "symbol": "OORT",
     "decimals": 18
   },
   "rpc": ["https://dev-rpc.oortech.com"],
@@ -9684,9 +9697,22 @@
   "faucets": ["https://faucet.maxxchain.org"],
   "infoURL": "https://www.maxxchain.org/"
 }, {
+  "name": "Arthera Mainnet",
+  "chainId": 10242,
+  "shortName": "aa",
+  "networkId": 10242,
+  "nativeCurrency": {
+    "name": "Arthera",
+    "symbol": "AA",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.arthera.net"],
+  "faucets": [],
+  "infoURL": "https://docs.arthera.net/build/developing-sc/using-hardhat"
+}, {
   "name": "Arthera Testnet",
   "chainId": 10243,
-  "shortName": "aa",
+  "shortName": "aat",
   "networkId": 10243,
   "nativeCurrency": {
     "name": "Arthera",
